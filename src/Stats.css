@@ -1,0 +1,18 @@
+.chart {
+    width: 100%;
+    padding: 16px;
+    background-color: rgb(39, 41, 61);
+}
+
+.chart-div {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .chart {
+        width: 100%;
+    }
+    .chart-div {
+        display: block;
+    }
+}
