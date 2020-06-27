@@ -17,6 +17,7 @@
 npm install
 ```
 This will install all the project dependencies.
+
 3. Create a .env file in the project root folder and add the following:
 ```bash
 REACT_APP_GITHUB_CLIENT_ID = yourClientId
