@@ -20,6 +20,9 @@ class Repos extends Component {
                                 <i className="fa fa-star-o"></i>&nbsp;{repo.stargazers_count}&nbsp;&nbsp;
                                 <i className="fa fa-code-fork"></i>&nbsp;{repo.forks}
                             </Card.Subtitle>
+                            <Card.Text>
+                                {repo.description}
+                            </Card.Text>
                             <Card.Link  style={{ border: '1px solid white', color: 'white', padding: '4px'}} href={repo.html_url}><i className="fa fa-github"></i> Visit</Card.Link>
                         </Card.Body>
                     </Card>
