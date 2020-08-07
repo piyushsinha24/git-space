@@ -8,7 +8,7 @@ function App() {
   return (
     <Switch>
         <Route exact path='/' component={Landing} />
-        <Route exact path='/user/:id' render={(props)=>(<User {...props}/>)} />
+        <Route exact path='/user/:id' component={User} />
     </Switch>
   );
 }
